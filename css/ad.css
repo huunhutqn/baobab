@@ -1,0 +1,114 @@
+/*login*/
+.forget {
+	cursor: pointer;
+}
+.forget:hover {
+	text-decoration: underline;
+	font-weight: 500;
+}
+/* rows hidden by filtering (needed for child rows) */
+.tablesorter .filtered {
+    display: none;
+}
+
+/*nav bar*/
+.navbar {
+	background-color: #220093;
+}
+.sidebar .nav-link.active {
+    color: #220093!important;
+}
+h2, h1 {
+	color: #686084;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* ajax error row */
+.tablesorter .tablesorter-errorRow td {
+    text-align: center;
+    cursor: pointer;
+    background-color: #e6bf99;
+}
+
+/*user name style*/
+.nav-item span {
+	font-size: .875rem;
+	padding: .5rem 1rem;
+}
+
+/*list room style*/
+.btn-room {
+	top: 0px;
+	right: 0px;
+	font-size: 20px;
+}
+.btn-room i {
+	padding: 5px 7px;
+	cursor: pointer;
+}
+.btn-room i.icofont-edit:hover {
+	background-color: #936C00;
+	color: #fff!important;
+}
+.btn-room i.icofont-error:hover {
+	background-color: #930028;
+	color: #fff!important;
+}
+.room-list .badge {
+	font-size: 95%;
+}
+.room-list .av-room {
+	max-height: 200px;
+	overflow: hidden;
+}
+.room_detail {
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.cancel-edit, .cancel-ecl {
+	background-color: #930028;
+	color: #fff;
+}
+.cancel-edit:hover, .cancel-ecl:hover {
+	color: #e2e2e2;
+}
+.submit-edit, .submit-ecl {
+	background-color: #00936B;
+	color: #fff;
+}
+.submit-edit:hover, .submit-ecl:hover {
+	color: #e2e2e2;
+}
+
+/* gallery room*/
+.gallery-room {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.gallery-room a img {
+	/*width: 20%;*/
+	width: 200px;
+	/*margin-top: 5px;*/
+	/*padding-right: 5px;*/
+	-webkit-transition: -webkit-transform .15s ease;
+	-moz-transition: -moz-transform .15s ease;
+	-o-transition: -o-transform .15s ease;
+	-ms-transition: -ms-transform .15s ease;
+	transition: transform .15s ease;
+}
+.gallery-room a:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	z-index: 5;
+}
+.gallery-room a {
+	display: inline-block;
+	float: none;
+	max-height: 120px;
+	overflow: hidden;
+}
